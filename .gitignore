@@ -1,0 +1,15 @@
+# Ignore compiled Java classes
+*.class
+
+# Ignore IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore logs, OS files
+*.log
+.DS_Store
+
+# Build tools (if added later)
+target/
+build/
