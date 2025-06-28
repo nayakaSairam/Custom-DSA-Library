@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class heapss<T extends Comparable<T>> {
+public class Custom_heap<T extends Comparable<T>> {
     public ArrayList<T> al;
     public  heapss(){
         al=new ArrayList<>();
