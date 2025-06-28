@@ -1,2 +1,44 @@
-# Custom-DSA-Library
-🚀 A collection of custom-built data structures in Java including Linked Lists, Stacks, Queues, Heaps, and Binary Trees — all implemented from scratch without using built-in collections. Designed for learning, interviews, and deepening understanding of core DSA concepts.
+# 🧩 Custom Data Structures in Java
+This repository showcases a curated collection of core data structures implemented from scratch in Java, without the use of built-in collection classes such as ArrayList, LinkedList, Queue, or Stack. Each implementation reflects a deep dive into how these structures function under the hood, providing greater clarity on memory management, pointer manipulation, and algorithmic design.
+
+These data structures were designed and built during focused problem-solving sessions and serve as a strong foundation for mastering Data Structures and Algorithms (DSA) for academic, interview, and practical programming purposes.
+
+# 🗃️ Implementations Included
+Data Structure	Implementation Details
+Linked List	Singly linked list with recursive and iterative insertion methods, node manipulation, cycle detection, and middle element finding
+Stack	Array-based implementation supporting push/pop/peek operations, overflow/underflow checks
+Queue	Circular queue using arrays with full/empty condition checks and efficient space utilization
+Binary Tree	Custom tree node class with traversal methods (inorder, preorder, postorder), height and depth utilities
+Heap	Min and Max Heap implemented using arrays with heapify operations, insertions, deletions, and tree visualization support
+
+# 🎯 Learning Objectives
+Deepen Conceptual Understanding: By not using Java’s built-in libraries, these implementations reinforce fundamental DSA concepts such as pointer references, recursion, and data layout in memory.
+
+Object-Oriented Design Practice: Clean, modular class-based designs to improve fluency in Java OOP principles.
+
+Interview Preparation: These files serve as a reusable codebase to revise core topics for technical interviews and coding assessments.
+
+Debugging and Optimization Skills: Understanding time and space complexity in custom code builds stronger debugging and profiling skills.
+
+# 🔍 Highlights
+
+Recursion-heavy techniques used where appropriate (e.g., recursive insertion in linked lists and trees).
+
+Error handling included for edge cases like stack overflow, queue underflow, etc.
+
+Modular code organization — each structure has its own folder and clear class separation.
+
+# 🚀 How to Use
+Clone the repository and open any data structure’s folder to access the main Java class file:
+
+git clone https://github.com/your-username/Custom-DSA-Library.git
+cd Custom-DSA-Library/LinkedList
+javac CustomLinkedList.java
+java CustomLinkedList
+
+
+# 🙌 Acknowledgements
+This project was developed as a personal challenge to solidify understanding of core computer science principles and prepare for software engineering interviews. Contributions, suggestions, or pull requests are always welcome!
+
+Built with 💻, persistence, and passion for learning.
+Maintained by N. Sai Ram
