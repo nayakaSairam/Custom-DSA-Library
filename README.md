@@ -29,13 +29,19 @@ Error handling included for edge cases like stack overflow, queue underflow, etc
 Modular code organization — each structure has its own folder and clear class separation.
 
 # 🚀 How to Use
-Clone the repository and open any data structure’s folder to access the main Java class file:
+Clone the repository and navigate to any custom data structure folder you wish to run. For example, to test the linked list implementation:
 
-git clone https://github.com/your-username/Custom-DSA-Library.git
-cd Custom-DSA-Library/LinkedList
-javac CustomLinkedList.java
-java CustomLinkedList
+Step 1: Clone the repository
+→ Use git clone followed by the repository URL to download it to your machine.
 
+Step 2: Enter the desired folder
+→ Use cd to change into the specific data structure directory (e.g., LinkedList).
+
+Step 3: Compile the Java file
+→ Run javac CustomLinkedList.java to compile the source file.
+
+Step 4: Run the program
+→ Use java CustomLinkedList to execute the compiled class and see output in the terminal.
 
 # 🙌 Acknowledgements
 This project was developed as a personal challenge to solidify understanding of core computer science principles and prepare for software engineering interviews. Contributions, suggestions, or pull requests are always welcome!
